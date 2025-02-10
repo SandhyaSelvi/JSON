@@ -1,0 +1,16 @@
+// Checking if obj1 and obj2 have the same properties and values
+
+var obj1 ={
+    "name" : "Person 1",
+    "age" : "5"
+}
+var obj2 = {
+    "age" : "5",
+    "name" : "Person1"
+}
+
+if(JSON.stringify(obj1) === JSON.stringify(obj2)){
+    console.log("True");
+} else {
+    console.log("False");
+}
